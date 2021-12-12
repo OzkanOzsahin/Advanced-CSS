@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(300deg, #d2d5da 0%, #c3cfe2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.testimonial-container {
+  display: flex;
+  max-width: 1500px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  max-width: 100%;
+  width: 400px;
+}
+
+.testimonial-body {
+  padding: 40px 40px 80px;
+}
+
+.testimonial-body p {
+  color: black;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.testimonial-body .fa-quote-right {
+  color: #eee;
+  font-size: 40px;
+  float: right;
+}
+
+.testimonial-footer {
+  background-color: #686de0;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial-footer img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 120px;
+  width: 120px;
+  margin-top: -100px;
+}
+
+.testimonial-footer h3 {
+  margin: 10px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.testimonial-footer h4 {
+  color: #b3b5ef;
+  margin: 0;
+}
+
+footer {
+  background-color: #686de0;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+p {
+  line-height: 24px;
+  margin: 0;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  margin: 20px;
+}
+
+.portfolio-item {
+  border-radius: 10px;
+  margin: 20px 1.6%;
+  overflow: hidden;
+  position: relative;
+  width: 30%;
+}
+
+.portfolio-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 200ms ease-in;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-content {
+  background-color: #293347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-item .portfolio-content:hover {
+  opacity: 1;
+}
+
+.portfolio-content p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.portfolio-content a {
+  background-color: #fff;
+  border-radius: 3px;
+  color: black;
+  margin-top: 20px;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+
+.social-media-container {
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 60px);
+  padding: 2px;
+  transform: translateY(-50%);
+  min-width: 80px;
+  min-height: 200px;
+}
+
+.social-media {
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media:hover {
+  transform: translateX(calc(-100% + 60px));
+}
+
+.social-media.blog {
+  background-color: #e17b77;
+}
+
+.social-media.facebook {
+  background-color: #3b5998;
+}
+
+.social-media.twitter {
+  background-color: #00aced;
+}
+
+.social-media.github {
+  background-color: #333;
+}
+
+.social-media.linkedin {
+  background-color: #007bb6;
+}
+
+.social-media a {
+  color: #fff;
+  padding: 10px;
+  width: 80px;
+  font-size: 12px;
+}
+
+@media (max-width: 960px) {
+  .portfolio-item {
+    width: 48%;
+    margin: 15px 1%;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio-item {
+    width: 100%;
+    margin: 15px 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
